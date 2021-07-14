@@ -1,4 +1,4 @@
-/* fpnts */
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@ p{
      padding-left: 10%;
      padding-top: 140px;
      margin-bottom: 27px;
-}
+}  
 .pack img{
     width: 622px;
     height: 489px;
@@ -106,5 +106,3 @@ p{
     font-size: 17px;
     text-align: center;
 }
-/* Media Queris */
-/* Mobile Devices */
