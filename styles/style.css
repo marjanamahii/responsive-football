@@ -19,7 +19,7 @@ p{
      padding-left: 10%;
      padding-top: 140px;
      margin-bottom: 27px;
-}  
+}
 .pack img{
     width: 622px;
     height: 489px;
@@ -27,7 +27,8 @@ p{
     margin-bottom: 74px;
     margin-right: 148px;
 }
-.live-button{
+
+.live-button{   
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 30px;
@@ -80,6 +81,7 @@ p{
 .videos{
     display: flex;
     margin: 10%;
+    justify-content: space-between;
     
 }
 /* Footer */
@@ -105,4 +107,23 @@ p{
     color: black;
     font-size: 17px;
     text-align: center;
+}
+/* Media Queris */
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+    .flexible-container{
+        width: 100%;
+    }
+    .top-side{
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .flexible{
+        flex-direction: column;
+    }
+    
+    .all-player{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
