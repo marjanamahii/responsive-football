@@ -1,3 +1,5 @@
+/* fpnts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
@@ -74,10 +76,11 @@ p{
     color: black;
     font-size: 15px;
 }
+/* Videos */
 .videos{
     display: flex;
     margin: 10%;
-    grid-template-columns: repeat(2, 1fr);
+    
 }
 /* Footer */
 .image-edit{
