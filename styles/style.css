@@ -1,0 +1,55 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin: 0%;
+}
+h2{
+    font-size: 64px;
+}
+
+.container{
+    display: flex;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-bottom: 100%;
+
+    
+    
+    
+}
+.top-icons{
+    width: 50%;
+    padding: 5%;
+}
+.top-icons img{
+    width: 556.01px;
+    height: 438px;
+    padding: 30px 50px;
+    
+
+}
+.section-title{
+    width: 485px;
+    height: 230px;
+    
+
+}
+.live-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+
+
+}
+.fa-arrow-right{
+    padding: 30px 24px;
+}
+
+
+/* players info*/
